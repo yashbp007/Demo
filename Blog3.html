@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-N92PBSNR');</script>
+<!-- End Google Tag Manager -->
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C1R6V7VTP0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C1R6V7VTP0');
+</script>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>CloudCove.ai - Blogs</title>
+    <meta
+      content=""
+      name="CloudCove - IT Solutions & Business Services Multipurpose Responsive Website"
+    />
+    <meta
+      name="description"
+      content="CloudCove - IT Solutions & Business Services Multipurpose Responsive Website"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta content="" name="ZRTHEMES" />
+
+    <!-- Favicons -->
+    <link href="assets/images/new logo.png" rel="icon" />
+    <link href="assets/images/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&amp;family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/stylesheets/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <!-- Main CSS File -->
+    <link href="assets/stylesheets/styles.css" rel="stylesheet" />
+  </head>
+  <style>
+    pre code {
+      display: block;
+      padding: 1rem;
+      background: #1a202c;
+      color: #e2e8f0;
+      border-radius: 0.5rem;
+      overflow-x: auto;
+    }
+    .copy-button {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      background: #4a5568;
+      color: white;
+      padding: 0.25rem 0.5rem;
+      border-radius: 0.25rem;
+      cursor: pointer;
+    }
+    .copy-button:hover {
+      background: #718096;
+    }
+    .tab {
+      display: none;
+    }
+    .tab.active {
+      display: block;
+    }
+    .tab-button {
+      padding: 0.5rem 1rem;
+      background: #e2e8f0;
+      cursor: pointer;
+      border-radius: 0.25rem 0.25rem 0 0;
+    }
+    .tab-button.active {
+      background: #ffffff;
+      font-weight: bold;
+    }
+    .flip-wrapper {
+       perspective: 1000px;
+       /* height: 24px; */
+       overflow: hidden;
+       position: relative;
+      }
+
+.flip-inner {    
+  display: block;
+  transform-style: preserve-3d;
+  animation: flipVertical 8s infinite; /* Slower flip (was 4s) */
+  position: relative;
+}
+
+.flip-inner a {
+  display: block;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  /* height: 24px; */
+  line-height: 24px;
+  text-decoration: none;
+  /* color: #000; */
+  /* font-weight: bold; */
+  text-align: left;
+}
+
+.flip-inner a:nth-child(2) {
+  transform: rotateX(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+@keyframes flipVertical {
+  0%, 45% {
+    transform: rotateX(0deg);
+  }
+  50%, 95% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+
+
+  </style>
+   <style>
+   
+    /* h1, h2 {
+      color: #333;
+    } */
+    .command-block {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      position: relative;
+    }
+    pre {
+      background: #eee;
+      padding: 10px;
+      overflow-x: auto;
+      border-radius: 5px;
+      white-space: pre-wrap;
+    }
+    .copy-btn {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background-color: #025add;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+    .copy-btn:hover {
+      background-color: #025add;
+    }
+  </style>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N92PBSNR"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <header
+      id="header"
+      class="header d-flex align-items-center sticked stikcy-menu"
+    >
+      <div
+        class="container-fluid container-xl d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- <img src="assets/images/logo.png" alt="logo" /> -->
+
+          <img src="./assets/images/new logo.png" alt="logo" />
+          <span class="logo-text">CloudCove.ai</span>
+        </a>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html" class="">Home</a></li>
+            <li><a href="services.html" class="">Services</a></li>
+            <li><a href="projects.html" class="">Projects</a></li>
+            <li><a href="blogs.html" class="">Blogs</a></li>
+            <li>
+              <div class="flip-wrapper">
+                <div class="flip-inner">
+                  <a class="flip" href="cultureandEthos.html">Culture</a>
+                  <a class="flip" href="cultureandEthos.html">Ethos</a>
+                </div>
+            </li>
+            <!-- <li class="dropdown"><a href="#"><span>Menu</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="packages.html">Pricing</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="privacy-policy.html">Terms &amp; Conditions</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+            <li><a href="blog-details.html">Blog Detail Page</a></li>
+          </ul>
+        </li>
+        <li><a href="blogs.html">News</a></li> -->
+          </ul>
+        </nav>
+        <!-- .navbar -->
+        <a href="contact.html" class="btn-get-started hide-on-mobile"
+          >Book Demo</a
+        >
+        <button id="darkmode-button"><i class="bi bi-moon-fill"></i></button>
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!--  Breadcrumbs  -->
+    <div class="breadcrumbs">
+      <div class="page-header d-flex align-items-center">
+        <div class="container position-relative">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 text-center">
+              <h2>Blogs</h2>
+              <!-- <p>Lorem ipsum dolor sit amet consectetur adipiscing elit</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav>
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li>Blogs</li>
+          </ol>
+        </div>
+      </nav>
+    </div>
+    <!-- End Breadcrumbs -->
+
+<main id="main">
+        <section>
+            <header class="py-6">
+                <div class="container mx-auto px-4">
+                  <h1 class="text-3xl font-bold text-center">complete Evergage & SalesforceInteractions Command List</h1>
+                </div>
+              </header>
+              <div class="px-4 py-8"> 
+                <!-- Evergage Section -->
+                <h2>Evergage Commands</h2>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>Evergage.init()</strong>
+                    <p>Initialize the Evergage system.</p>
+                    <pre>Evergage.init();</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>Evergage.reinit()</strong>
+                    <p>Reinitialize Evergage for SPAs after navigation.</p>
+                    <pre>Evergage.reinit();</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>Evergage.initSmartVar()</strong>
+                    <p>Initialize SmartVar content areas manually.</p>
+                    <pre>Evergage.initSmartVar();</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>Evergage.reinitSmartVar()</strong>
+                    <p>Reinitialize SmartVar areas in SPAs.</p>
+                    <pre>Evergage.reinitSmartVar();</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>Evergage.displaySmartVar()</strong>
+                    <p>Force display of SmartVar content immediately.</p>
+                    <pre>Evergage.displaySmartVar();</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>Evergage.getCampaignResponses()</strong>
+                    <p>Retrieve campaign responses from this page view.</p>
+                    <pre>const responses = Evergage.getCampaignResponses();</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>Evergage.sendBeacon()</strong>
+                    <p>Send a beacon immediately to the server with collected data.</p>
+                    <pre>Evergage.sendBeacon();</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>Evergage.trackAction(name, attributes)</strong>
+                    <p>Track a custom user action.</p>
+                    <pre>Evergage.trackAction("ProductClicked", { productId: "sku123" });</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>Evergage.trackPageView(pageName, attributes)</strong>
+                    <p>Manually track a page view, typically in SPAs.</p>
+                    <pre>Evergage.trackPageView("Checkout", { step: "2" });</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>Evergage.pushEvent(event)</strong>
+                    <p>Push a custom event into the Evergage event queue.</p>
+                    <pre>
+            Evergage.pushEvent({
+              name: "FormSubmitted",
+              attributes: {
+                formName: "NewsletterSignup"
+              }
+            });</pre>
+                </div>
+
+                <div class="command-block">
+                  <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                  <strong>Evergage.smartContentRenderer()</strong>
+                  <p>Previously used for SmartContent rendering manually.</p>
+                  <pre>
+                    Evergage.smartContentRenderer()</pre>
+              </div>
+
+              
+              <div class="command-block">
+                <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                <strong>Evergage.initSitemap()</strong>
+                <p>Old method to initialize sitemap structure for campaigns.</p>
+                <pre>
+                  Evergage.initSitemap()</pre>
+            </div>
+
+            <div class="command-block">
+              <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+              <strong>Evergage.reinitSitemap()</strong>
+              <p>Old method to reinitialize sitemap after SPA change.</p>
+              <pre>
+                Evergage.reinitSitemap()</pre>
+          </div>
+            
+
+          <div class="command-block">
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+            <strong>Evergage.getSitemap()</strong>
+            <p>Retrieve sitemap object.</p>
+            <pre>
+              Evergage.getSitemap()</pre>
+        </div>
+
+        <div class="command-block">
+          <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+          <strong>Evergage.setSitemap()</strong>
+          <p>Manually set sitemap (very old technique).</p>
+          <pre>
+            Evergage.setSitemap()</pre>
+      </div>
+
+  
+
+    <div class="command-block">
+      <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+      <strong>Evergage.hideSmartContent()</strong>
+      <p>Hide SmartContent manually.</p>
+      <pre>
+        Evergage.setSitemap()</pre>
+  </div>
+
+
+  <div class="command-block">
+    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+    <strong>Evergage.resetSmartContent()</strong>
+    <p>Reset SmartContent state.</p>
+    <pre>
+      Evergage.resetSmartContent()</pre>
+</div>
+
+
+                <!-- SalesforceInteractions Section -->
+                <hr>
+                <h2>SalesforceInteractions Commands</h2>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>SalesforceInteractions.reinit()</strong>
+                    <p>Reinitialize SalesforceInteractions for SPAs.</p>
+                    <pre>SalesforceInteractions.reinit();</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>SalesforceInteractions.sendEvent(payload)</strong>
+                    <p>Send a custom interaction event.</p>
+                    <pre>
+            SalesforceInteractions.sendEvent({
+              action: "AddedToCart",
+              attributes: {
+                productId: "sku123",
+                quantity: 2
+              }
+            });</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>SalesforceInteractions.applyContext(context)</strong>
+                    <p>Apply context data dynamically for personalization.</p>
+                    <pre>
+            SalesforceInteractions.applyContext({
+              user: {
+                email: "john@example.com",
+                loyaltyStatus: "Gold"
+              }
+            });</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>SalesforceInteractions.setIdentity(identity)</strong>
+                    <p>Set or update user identity information.</p>
+                    <pre>
+            SalesforceInteractions.setIdentity({
+              userId: "user-123",
+              attributes: {
+                email: "user@example.com",
+                phone: "1234567890"
+              }
+            });</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>SalesforceInteractions.anonymous()</strong>
+                    <p>Reset user session to anonymous.</p>
+                    <pre>SalesforceInteractions.anonymous();</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>SalesforceInteractions.updateCart(cart)</strong>
+                    <p>Update cart information (used for Cart Abandonment campaigns).</p>
+                    <pre>
+            SalesforceInteractions.updateCart({
+              items: [
+                { id: "sku123", quantity: 1 },
+                { id: "sku456", quantity: 2 }
+              ],
+              total: 149.99
+            });</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>SalesforceInteractions.clearCart()</strong>
+                    <p>Clear the cart context from personalization.</p>
+                    <pre>SalesforceInteractions.clearCart();</pre>
+                </div>
+            
+                <div class="command-block">
+                    <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+                    <strong>SalesforceInteractions.trackPageLoad(attributes)</strong>
+                    <p>Send a page load event manually if needed.</p>
+                    <pre>
+            SalesforceInteractions.trackPageLoad({
+              pageType: "HomePage",
+              campaign: "SummerSale"
+            });</pre>
+                </div>
+            </div>
+
+            <div class="command-block">
+              <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+              <strong>SalesforceInteractions.sendPageView()</strong>
+              <p>Older command, now merged with trackPageLoad().</p>
+              <pre>SalesforceInteractions.sendPageView()</pre>
+          </div>
+
+          <div class="command-block">
+            <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+            <strong>SalesforceInteractions.sendInteraction()</strong>
+            <p>Older form of sending a custom event (now sendEvent).</p>
+            <pre>SalesforceInteractions.sendInteraction()</pre>
+        </div>
+
+        <div class="command-block">
+          <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+          <strong>SalesforceInteractions.updateProfile()</strong>
+          <p>Old profile update, replaced by applyContext().</p>
+          <pre>SalesforceInteractions.updateProfile()</pre>
+      </div>
+
+      <div class="command-block">
+        <button class="copy-btn" onclick="copyCode(this)">Copy</button>
+        <strong>SalesforceInteractions.clearProfile()</strong>
+        <p>Old method to reset user profile.</p>
+        <pre>SalesforceInteractions.clearProfile()</pre>
+    </div>
+            
+</section>
+    </main>
+ 
+    <!-- End #main -->
+
+    <!--  Footer  -->
+    <footer id="footer" class="footer-section">
+      <div class="container">
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html" class="logo d-flex align-items-center">
+                    <!-- <img src="assets/images/logo.png" alt="logo" /> -->
+                    <img src="./assets/images/new logo.png" alt="logo" />
+                    <span
+                      class="logo-text"
+                      style="color: #025add; font-size: 25px"
+                      >CloudCove.ai</span
+                    >
+                  </a>
+                </div>
+                <div class="footer-text">
+                  <p>
+                    Empowering businesses through intelligent SaaS solutions. At CloudCove.ai, we simplify complex workflows and drive innovation with cutting-edge technology tailored to your needs.
+                  </p>
+                </div>
+                <div class="footer-social-icon">
+                  <span>Follow us</span>
+                  <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                  <a href="#" class="facebook"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a href="#" class="instagram"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a href="#" class="linkedin"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+              <div class="service-widget footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Services</h3>
+                </div>
+                <ul class="list">
+                  <li><a href="marketingCloud.html">Marketing Cloud</a></li>
+                  <li><a href="dataCloud.html">Data Cloud</a></li>
+                  <li><a href="personalization.html">Personalization</a></li>
+                  <li><a href="agentforce.html">Agentforce</a></li>
+                  <li>
+                    <a href="MarketingCloudGrowth.html"
+                      >Marketing Cloud Growth</a
+                    >
+                  </li>
+                  <li><a href="webDevelopment.html">Web Development</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+              <div class="service-widget footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Information</h3>
+                </div>
+                <ul class="list">
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="blogs.html">Blogs</a></li>
+                  <li><a href="projects.html">Projects</a></li>
+                  <li><a href="cultureandEthos.html">CultureandEthos</a></li>
+                  <!-- <li><a href="privacy-policy.html">Terms & Conditions</a></li> -->
+                  <!-- <li><a href="privacy-policy.html">Privacy Policy</a></li> -->
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="contact-widget footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Contacts</h3>
+                </div>
+                <div class="footer-text">
+                  <p>
+                    <i class="bi bi-geo-alt-fill mr-15"></i> 536, VTP Altitude, Aundh-Ravet BRTS Road, Pune-411017
+                  </p>
+                  <p>
+                    <i class="bi bi-telephone-inbound-fill mr-15"></i> +91 7410567539
+                  </p>
+                  <p>
+                    <i class="bi bi-envelope-fill mr-15"></i>
+                    contact@example.com
+                  </p>
+                </div>
+              </div>
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Newsletter</h3>
+                </div>
+                <div class="footer-text mb-25">
+                  <p>
+                    Don't miss to subscribe to our new feeds, kindly fill the
+                    form below.
+                  </p>
+                </div>
+                <div class="subscribe-form">
+                  <form action="#">
+                    <input type="text" placeholder="Email Address" />
+                    <button><i class="bi bi-telegram"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="row">
+            <div class="col-xl-6 col-lg-6 text-left text-lg-left">
+              <div class="copyright-text">
+                <p>
+                  Technoit © 2023 - Designed by
+                  <a href="https://www.templatemonster.com/authors/zrthemes/"
+                    >Zr Themes</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+         <p style="color: #b9b9b9; text-align: center; position: relative; font-size: 14px;">
+                  ShreemantInfotech © 2025
+                </p>
+              
+    </footer>
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="scroll-top d-flex align-items-center justify-content-center active"
+    >
+      <i class="bi bi-arrow-up-short"></i>
+    </a>
+
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/javascripts/jquery.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/javascripts/plugins.js"></script>
+    <script src="assets/javascripts/purecounter_vanilla.js"></script>
+    <script src="assets/javascripts/validator.min.js"></script>
+    <script src="assets/javascripts/contactform.js"></script>
+    <script src="assets/javascripts/particles.min.js"></script>
+    <script src="assets/javascripts/script.js"></script>
+
+
+  
+
+    <script>
+      function copyCode(button) {
+        const code = button.nextElementSibling.nextElementSibling.innerText;
+        navigator.clipboard.writeText(code).then(() => {
+          button.innerText = 'Copied!';
+          setTimeout(() => {
+            button.innerText = 'Copy';
+          }, 2000);
+        });
+      }
+      </script>
+    <!-- Template Main JS File -->
+    <script src="assets/javascripts/main.js"></script>
+  </body>
+</html>
